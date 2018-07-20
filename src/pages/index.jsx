@@ -5,33 +5,32 @@ import Instructors from "../components/Instructors/Instructors";
 import LeadCapture from "../components/LeadCapture/LeadCapture";
 import Schedule from "../components/Schedule/Schedule";
 import Img from "gatsby-image";
+import { graphql } from "gatsby";
 
 import "../css/styles.css";
 import "../css/responsive.css";
 import "../css/semantic.min.css";
 // import "prismjs/themes/prism-okaidia.css";
 
-// export const query = graphql`
-//   query GatsbyImageSampleQuery {
-//     file(relativePath: { eq: "images/gym2.png" }) {
-//       childImageSharp {
-//         # Specify the image processing specifications right in the query.
-//         # Makes it trivial to update as your page's design changes.
-//         resolutions(width: 125, height: 125) {
-//           ...GatsbyImageSharpResolutions
-//         }
-//       }
-//     }
-//   }
-// `;
+export const query = graphql`
+  query GatsbyImageSampleQuery {
+    file(relativePath: { eq: "images/gym2.png" }) {
+      childImageSharp {
+        resolutions(width: 125, height: 125) {
+          ...GatsbyImageSharpResolutions
+        }
+      }
+    }
+  }
+`;
 
-export default () => (
+export default props => (
   <div>
-    {/* <Img
+    <Img
       css={{ top: 0, left: 0, right: 0, zIndex: -1 }}
       style={{ position: `absolute` }}
-      fluid={this.props.data.file.childImageSharp.fluid}
-    /> */}
+      fluid={props.data.file.childImageSharp.fluid}
+    />
     {/* Master head */}
     <Segment vertical inverted textAlign="center" className="masthead">
       {/* <HeaderMenu
