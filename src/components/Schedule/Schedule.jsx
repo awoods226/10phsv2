@@ -4,10 +4,9 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 import "./schedule.css";
 import * as moment from "moment";
 import { List } from "semantic-ui-react";
-
 Calendar.setLocalizer(Calendar.momentLocalizer(moment));
 
-class Schedule extends Component {
+class Schedule extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
