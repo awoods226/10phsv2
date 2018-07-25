@@ -1,8 +1,12 @@
 module.exports = {
+  siteMetadata: {
+    title: `10th Planet Huntsville`,
+    googleVerification: `abcdefz`
+  },
   plugins: [
-    `gatsby-plugin-glamor`,
-    `gatsby-plugin-netlify`,
-    `gatsby-transformer-sharp`,
+    // `gatsby-plugin-glamor`,
+    // `gatsby-plugin-netlify`,
+    // `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,6 +19,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images`,
         name: "images"
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`bangers`]
       }
     }
   ]
