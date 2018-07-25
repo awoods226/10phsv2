@@ -1,5 +1,5 @@
 import * as React from "react";
-import config from "../../../config";
+import * as config from "../../config";
 const Location = () => {
   return (
     <iframe
