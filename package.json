@@ -8,6 +8,8 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "dotenv": "^6.0.0",
     "gatsby": "next",
     "gatsby-image": "^2.0.0-beta.6",
     "gatsby-plugin-glamor": "^2.0.0-beta.3",
