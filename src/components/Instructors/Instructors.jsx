@@ -8,7 +8,7 @@ import {
   Transition,
   Visibility
 } from "semantic-ui-react";
-import "./instructors.css";
+import "./Instructors.css";
 import brandonimg from "../../images/brandon.png";
 var ericimg = require("../../images/eric.png");
 var jacobimg = require("../../images/jacob.png");

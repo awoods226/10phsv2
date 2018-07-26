@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as Calendar from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import "./schedule.css";
+import "./Schedule.css";
 import * as moment from "moment";
 import { List } from "semantic-ui-react";
 Calendar.setLocalizer(Calendar.momentLocalizer(moment));
