@@ -1,3 +1,3 @@
 export const config = {
-  googleMapsAPIKey: "asdf12345"
+  googleMapsAPIKey: "AIzaSyAFfWZdgD-5tMSTAA-ZMSKAy55m72GxnG4"
 };
