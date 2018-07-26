@@ -30,6 +30,7 @@ module.exports = {
       options: {
         fonts: [`bangers`]
       }
-    }
+    },
+    `gatsby-plugin-netlify`
   ]
 };
