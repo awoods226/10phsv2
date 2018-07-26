@@ -5,7 +5,8 @@ import Instructors from "../components/Instructors/Instructors";
 import LeadCapture from "../components/LeadCapture/LeadCapture";
 import Schedule from "../components/Schedule/Schedule";
 import Location from "../components/Location/Location";
-
+import { Helmet, link } from "react-helmet";
+import favicon from "../images/favicon.ico";
 import "../css/styles.css";
 import "../css/responsive.css";
 import "../css/semantic.min.css";
@@ -13,6 +14,11 @@ import "../css/semantic.min.css";
 
 export default props => (
   <div>
+    <Helmet>
+      <title>10th Planet Huntsville</title>
+      <meta name="10phsv" content="10th Planet Huntsville BJJ" />
+      <link rel="shortcut icon" type="image/png" href={`${favicon}`} />
+    </Helmet>
     {/* Master head */}
     <Segment vertical inverted textAlign="center" className="masthead">
       {/* <HeaderMenu
@@ -36,6 +42,7 @@ export default props => (
       <Container>
         <Header inverted as="h3">
           Schedule
+          <Header.Subheader>More classes coming soon</Header.Subheader>
         </Header>
         <Schedule />
       </Container>
@@ -47,6 +54,7 @@ export default props => (
       <Container>
         <Header inverted as="h3">
           Location
+          <Header.Subheader>Come roll with us!</Header.Subheader>
         </Header>
         <Location />
       </Container>
