@@ -10,7 +10,7 @@ const Location = () => {
           height="450"
           frameBorder="0"
           src={`https://www.google.com/maps/embed/v1/place?q=2615%20N%20Memorial%20Pkwy%20ste%20c%2C%20Huntsville%2C%20AL%2035810&key=${
-            process.env.googleMapsAPIKey
+            process.env.GATSBY_googleMapsAPIKey
           }`}
           allowFullScreen
         />
@@ -21,7 +21,7 @@ const Location = () => {
           height="450"
           frameBorder="0"
           src={`https://www.google.com/maps/embed/v1/place?q=2615%20N%20Memorial%20Pkwy%20ste%20c%2C%20Huntsville%2C%20AL%2035810&key=${
-            process.env.googleMapsAPIKey
+            process.env.GATSBY_googleMapsAPIKey
           }`}
           allowFullScreen
         />
