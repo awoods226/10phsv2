@@ -1,7 +1,7 @@
 import * as React from "react";
-import { config } from "../../config";
 import "./Location.css";
 const Location = () => {
+  console.log(process.env);
   return (
     <div>
       <div className={"map-container-mobile"}>

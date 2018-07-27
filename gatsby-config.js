@@ -1,11 +1,9 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
-});
-
+require("dotenv").config();
+debugger;
 module.exports = {
   siteMetadata: {
     title: `10th Planet Huntsville`,
-    googleVerification: `abcdefz`
+    googleVerification: ``
   },
   plugins: [
     // `gatsby-plugin-glamor`,
