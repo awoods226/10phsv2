@@ -39,20 +39,12 @@ class Instructors extends React.Component {
               </Transition>
               <Card.Content>
                 <Card.Header>Brandon Mccaghren</Card.Header>
-                <Card.Meta>
-                  <span className="date">Head Instructor</span>
-                </Card.Meta>
+                <Card.Meta />
                 <Card.Description>
                   Brandon Mccaghren earned his Brazilian Jiu Jitsu Black Belt
                   under Eddie Bravo and was the first 10th Planet Instructor in
                   the entire Southeastern United States. He has received each of
-                  his Jiu Jitsu ranks directly from Eddie Bravo. In addition to
-                  being an experienced teacher and Black belt in the Traditional
-                  Martial Arts, Brandon has staked his claim as one of the top
-                  grappling competitors in the Southeast by taking titles in
-                  Kakuto, Good Fight, IBJJF, NAGA, and even Freestyle Judo to
-                  name just a few. He has also led 10th Planet to multiple Team
-                  Titles at many of these same events.
+                  his Jiu Jitsu ranks directly from Eddie Bravo.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -72,9 +64,7 @@ class Instructors extends React.Component {
               </Transition>
               <Card.Content>
                 <Card.Header>Eric Ow</Card.Header>
-                <Card.Meta>
-                  <span className="date">Instructor</span>
-                </Card.Meta>
+                <Card.Meta />
                 <Card.Description>
                   Eric Ow is a purple belt under Brandon McCaghren. He has
                   competed in numerous gi and no gi tournaments in the
@@ -84,7 +74,8 @@ class Instructors extends React.Component {
               <Card.Content extra>
                 <a>
                   <Icon name="user" />
-                  Eric likes long walks on the beach.... and chokes.
+                  Reese's Peanut Butter Cups are the No. 1 selling candy brand
+                  in the United States
                 </a>
               </Card.Content>
             </Card>
@@ -98,9 +89,7 @@ class Instructors extends React.Component {
               </Transition>
               <Card.Content>
                 <Card.Header>Jacob Sandlin</Card.Header>
-                <Card.Meta>
-                  <span className="date">Instructor</span>
-                </Card.Meta>
+                <Card.Meta />
                 <Card.Description>
                   Jacob Sandlin is a purple belt under Brandon McCaghren. He is
                   the former V3 135 Champion.
