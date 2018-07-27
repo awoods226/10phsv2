@@ -50,7 +50,7 @@ class Instructors extends React.Component {
               <Card.Content extra>
                 <a>
                   <Icon name="user" />
-                  Brandon is sponsored by Coke Zero
+                  Brandon is sponsored by unoficially Coke Zero
                 </a>
               </Card.Content>
             </Card>
