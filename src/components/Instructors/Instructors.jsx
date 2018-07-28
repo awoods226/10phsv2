@@ -91,8 +91,8 @@ class Instructors extends React.Component {
                 <Card.Header>Jacob Sandlin</Card.Header>
                 <Card.Meta />
                 <Card.Description>
-                  Jacob Sandlin is a purple belt under Brandon McCaghren. He is
-                  the former V3 135 Champion.
+                  Jacob Sandlin is a purple belt under Brandon McCaghren and
+                  active MMA fighter. He is the former V3 fights 135 Champion
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
