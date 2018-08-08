@@ -113,7 +113,7 @@ class Schedule extends React.Component {
             <List.Item>
               <List.Content>
                 <List.Header>Muay Thai</List.Header>
-                <List.Description>Tuesday 8:00pm - 9:00pm</List.Description>
+                <List.Description>Wednesday 8:00pm - 9:00pm</List.Description>
               </List.Content>
             </List.Item>
             <List.Item>
