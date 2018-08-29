@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./WhatIs10.css";
+import "./Whatis10.css";
 import YouTube from "react-youtube";
 
 const WhatIs10 = () => {
