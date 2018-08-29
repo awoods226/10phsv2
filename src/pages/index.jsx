@@ -5,7 +5,8 @@ import Instructors from "../components/Instructors/Instructors";
 import LeadCapture from "../components/LeadCapture/LeadCapture";
 import Schedule from "../components/Schedule/Schedule";
 import Location from "../components/Location/Location";
-import { Helmet, link } from "react-helmet";
+import WhatIs10 from "../components/WhatIs10/WhatIs10";
+import { Helmet } from "react-helmet";
 import favicon from "../images/favicon.ico";
 import "../css/styles.css";
 import "../css/responsive.css";
@@ -42,9 +43,16 @@ export default props => (
       <Container>
         <Header inverted as="h3">
           Schedule
-          <Header.Subheader>More classes coming soon</Header.Subheader>
         </Header>
         <Schedule />
+      </Container>
+    </Segment>
+    <Segment vertical className="stripe black" textAlign="center">
+      <Container>
+        <Header inverted as="h3">
+          What is 10th Planet
+        </Header>
+        <WhatIs10 />
       </Container>
     </Segment>
     {/* Instructors */}

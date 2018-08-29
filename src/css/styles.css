@@ -71,6 +71,10 @@
   background-color: #3d348b;
 }
 
+.ui.stripe.black {
+  background-color: black !important;
+}
+
 .quote.stripe.segment {
   padding: 0;
 }

@@ -3,7 +3,7 @@ import * as Calendar from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "./Schedule.css";
 import * as moment from "moment";
-import { List } from "semantic-ui-react";
+import { List, Table, Header } from "semantic-ui-react";
 Calendar.setLocalizer(Calendar.momentLocalizer(moment));
 
 class Schedule extends React.Component {
@@ -74,18 +74,78 @@ class Schedule extends React.Component {
     return (
       <div>
         <div className="calendar-container">
-          <Calendar.default
-            defaultDate={new Date()}
-            defaultView="week"
-            toolbar={false}
-            step={60}
-            showMultiDayTimes
-            min={new Date(2017, 10, 0, 10, 0, 0)}
-            max={new Date(2017, 10, 0, 22, 0, 0)}
-            events={this.state.events}
-            selectable={false}
-            style={{ height: "70vh" }}
-          />
+          <Table celled>
+            <Table.Header>
+              <Table.Row>
+                <Table.HeaderCell>Monday</Table.HeaderCell>
+                <Table.HeaderCell>Tuesday</Table.HeaderCell>
+                <Table.HeaderCell>Wednesday</Table.HeaderCell>
+                <Table.HeaderCell>Thursday</Table.HeaderCell>
+                <Table.HeaderCell>Friday</Table.HeaderCell>
+                <Table.HeaderCell>Saturday</Table.HeaderCell>
+                <Table.HeaderCell>Sunday</Table.HeaderCell>
+              </Table.Row>
+            </Table.Header>
+            <Table.Body>
+              <Table.Row>
+                <Table.Cell>
+                  <Header as="h4">
+                    7:00 AM - 8:00 AM
+                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
+                    6:00 PM - 7:00 PM
+                    <Header.Subheader>Kickboxing</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
+                    7:30 PM - 9:00 PM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
+                </Table.Cell>
+                <Table.Cell>
+                  <Header as="h4">
+                    6:00 PM - 7:30 PM
+                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                  </Header>
+                </Table.Cell>
+                <Table.Cell>
+                  <Header as="h4">
+                    7:00 AM - 8:00 AM
+                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
+                    6:00 PM - 7:30 PM
+                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
+                    8:00 PM - 9:00 PM
+                    <Header.Subheader>Muay Thai</Header.Subheader>
+                  </Header>
+                </Table.Cell>
+                <Table.Cell>
+                  <Header as="h4">
+                    6:00 PM - 7:30 PM
+                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
+                    7:30 PM - 8:30 PM
+                    <Header.Subheader>Kickboxing</Header.Subheader>
+                  </Header>
+                </Table.Cell>
+                <Table.Cell>
+                  <Header as="h4">
+                    6:00 PM - 7:30 PM
+                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                  </Header>
+                </Table.Cell>
+                <Header as="h4">
+                  10:00 AM - 12:00 PM
+                  <Header.Subheader>Open Mat</Header.Subheader>
+                </Header>
+                <Table.Cell />
+              </Table.Row>
+            </Table.Body>
+          </Table>
         </div>
         <div className="mobile-schedule-container">
           <List
@@ -98,28 +158,58 @@ class Schedule extends React.Component {
           >
             <List.Item>
               <List.Content>
-                <List.Header>All Levels BJJ</List.Header>
-                <List.Description>Monday 7:30pm - 9:00pm</List.Description>
-              </List.Content>
-            </List.Item>
-            <List.Item>
-              <List.Content>
-                <List.Header>BJJ Fundamentals</List.Header>
+                <List.Header>Monday</List.Header>
                 <List.Description>
-                  Monday - Friday 6:00pm - 7:30pm
+                  7:00am - 8:00am BJJ Fundamentals
+                  <br />
+                  6:00pm - 7:00pm Kickboxing
+                  <br />
+                  7:30pm - 9:00pm All Levels BJJ
                 </List.Description>
               </List.Content>
             </List.Item>
             <List.Item>
               <List.Content>
-                <List.Header>Muay Thai</List.Header>
-                <List.Description>Wednesday 8:00pm - 9:00pm</List.Description>
+                <List.Header>Tuesday</List.Header>
+                <List.Description>
+                  6:00pm - 7:30pm BJJ Fundamentals
+                </List.Description>
               </List.Content>
             </List.Item>
             <List.Item>
               <List.Content>
-                <List.Header>Open Mat</List.Header>
-                <List.Description>Saturday 10:00am - 12:00am</List.Description>
+                <List.Header>Wednesday</List.Header>
+                <List.Description>
+                  7:00am - 8:00am BJJ Fundamentals
+                  <br />
+                  6:00pm - 7:30pm BJJ Fundamentals
+                  <br />
+                  8:00pm - 9:00pm Muay Thai
+                </List.Description>
+              </List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Content>
+                <List.Header>Thursday</List.Header>
+                <List.Description>
+                  6:00pm - 7:30pm BJJ Fundamentals
+                  <br />
+                  7:30pm - 8:30pm Kickboxing
+                </List.Description>
+              </List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Content>
+                <List.Header>Friday</List.Header>
+                <List.Description>
+                  6:00pm - 7:30pm BJJ Fundamentals
+                </List.Description>
+              </List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Content>
+                <List.Header>Saturday</List.Header>
+                <List.Description>10:00am - 12:00am Open Mat</List.Description>
               </List.Content>
             </List.Item>
           </List>
