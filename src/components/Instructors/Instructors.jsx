@@ -10,7 +10,7 @@ import {
 } from "semantic-ui-react";
 import "./Instructors.css";
 import brandonimg from "../../images/brandon.png";
-var ericimg = require("../../images/eric.png");
+var ericimg = require("../../images/eric.jpg");
 var jacobimg = require("../../images/jacob.png");
 
 class Instructors extends React.Component {
@@ -65,7 +65,7 @@ class Instructors extends React.Component {
               <Card.Content>
                 <Card.Header>Eric Ow</Card.Header>
                 <Card.Meta />
-                <Card.Description>
+                <Card.Description className={"instructor-bio"}>
                   Eric Ow is a purple belt under Brandon McCaghren. He has
                   competed in numerous gi and no gi tournaments in the
                   southeast.
