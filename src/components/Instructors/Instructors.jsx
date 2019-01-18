@@ -92,7 +92,7 @@ class Instructors extends React.Component {
                 <Card.Meta />
                 <Card.Description>
                   Jacob Sandlin is a purple belt under Brandon McCaghren and
-                  active MMA fighter. He is the former V3 fights 135 Champion
+                  active MMA fighter. He is the current V3 fights 135 Champion
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
