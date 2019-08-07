@@ -35,7 +35,7 @@ class Instructors extends React.Component {
                 visible={this.state.isVisible}
                 animation={"fade"}
               >
-                <Image fluid src={brandonimg} />
+                <Image className="instructor-image" fluid src={brandonimg} />
               </Transition>
               <Card.Content>
                 <Card.Header>Brandon Mccaghren</Card.Header>
@@ -60,7 +60,7 @@ class Instructors extends React.Component {
                 visible={this.state.isVisible}
                 animation={"fade"}
               >
-                <Image fluid src={ericimg} />
+                <Image className="instructor-image" fluid src={ericimg} />
               </Transition>
               <Card.Content>
                 <Card.Header>Eric Ow</Card.Header>
@@ -85,7 +85,7 @@ class Instructors extends React.Component {
                 visible={this.state.isVisible}
                 animation={"fade"}
               >
-                <Image fluid src={jacobimg} />
+                <Image className="instructor-image" fluid src={jacobimg} />
               </Transition>
               <Card.Content>
                 <Card.Header>Jacob Sandlin</Card.Header>
