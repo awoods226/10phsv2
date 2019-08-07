@@ -68,7 +68,7 @@ class Instructors extends React.Component {
                 <Card.Description className={"instructor-bio"}>
                   Eric Ow is a brown belt under Brandon McCaghren. He has
                   competed in numerous gi and no gi tournaments in the
-                  southeast. Eric is also a certified NRA instructor. 
+                  southeast. Eric is also a certified NRA instructor.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>

@@ -1,7 +1,6 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`
 });
-debugger;
 module.exports = {
   siteMetadata: {
     title: `10th Planet Huntsville`,
@@ -10,7 +9,7 @@ module.exports = {
   plugins: [
     // `gatsby-plugin-glamor`,
     // `gatsby-plugin-netlify`,
-    // `gatsby-transformer-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
