@@ -6,6 +6,7 @@ import LeadCapture from "../components/LeadCapture/LeadCapture";
 import Schedule from "../components/Schedule/Schedule";
 import Location from "../components/Location/Location";
 import WhatIs10 from "../components/WhatIs10/WhatIs10";
+import Admin from "../components/Admin/Admin";
 import { Helmet } from "react-helmet";
 import favicon from "../images/favicon.ico";
 import "../css/styles.css";
@@ -68,5 +69,6 @@ export default props => (
       </Container>
     </Segment>
     <Footer />
+    <Admin />
   </div>
 );

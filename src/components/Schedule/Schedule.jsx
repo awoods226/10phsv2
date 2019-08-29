@@ -75,15 +75,17 @@ class Schedule extends React.Component {
                   </Header>
                 </Table.Cell>
                 <Table.Cell>
-                  {/* <Header as="h4">
+                  <Header as="h4">
                     6:00 PM - 7:30 PM
                     <Header.Subheader>BJJ Fundamentals</Header.Subheader>
-                  </Header> */}
+                  </Header>
                 </Table.Cell>
-                <Header as="h4">
-                  10:00 AM - 12:00 PM
-                  <Header.Subheader>Open Mat</Header.Subheader>
-                </Header>
+                <Table.Cell>
+                  <Header as="h4">
+                    10:00 AM - 12:00 PM
+                    <Header.Subheader>Open Mat</Header.Subheader>
+                  </Header>
+                </Table.Cell>
                 <Table.Cell />
               </Table.Row>
             </Table.Body>
