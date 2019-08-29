@@ -9,67 +9,9 @@ Calendar.setLocalizer(Calendar.momentLocalizer(moment));
 class Schedule extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      events: []
-    };
+    this.state = {};
   }
-  getEventSchedule = (title, days, startHour, startMin, endHour, endMin) => {
-    let daysWithTimes = days.map(v => {
-      return moment().day(v);
-    });
-    return daysWithTimes.map(v => {
-      return {
-        end: v
-          .hours(endHour)
-          .minutes(endMin)
-          .toDate(),
-        start: v
-          .hours(startHour)
-          .minutes(startMin)
-          .toDate(),
-        title
-      };
-    });
-  };
-  getFundamentalsEvents = () => {
-    return this.getEventSchedule(
-      "BJJ Fundamentals",
-      ["Tuesday", "Wednesday", "Thursday", "Friday"],
-      18,
-      0,
-      19,
-      30
-    );
-  };
-  getAllLevelsEvents = () => {
-    return this.getEventSchedule("All Levels BJJ", ["Monday"], 19, 30, 21, 0);
-  };
-  getEvents = () => {
-    let events = [];
-    let allLevels = this.getAllLevelsEvents();
-    events.push(...allLevels);
-    let fundamentals = this.getFundamentalsEvents();
-    events.push(...fundamentals);
-    let openMat = this.getOpenMatEvents();
-    events.push(...openMat);
-    let muayThai = this.getMuayThaiEvents();
-    events.push(...muayThai);
-    return events;
-  };
-  getOpenMatEvents = () => {
-    return this.getEventSchedule("Open Mat", ["Saturday"], 10, 0, 12, 0);
-  };
-  getMuayThaiEvents = () => {
-    return this.getEventSchedule("Muay Thai", ["Wednesday"], 20, 0, 21, 0);
-  };
-  componentDidMount() {
-    let schedule = this.getEvents();
-    let events = [];
-    schedule.map(s => {
-      events.push(s);
-    });
-    this.setState({ events });
-  }
+  componentDidMount() {}
   render() {
     return (
       <div>
@@ -133,10 +75,10 @@ class Schedule extends React.Component {
                   </Header>
                 </Table.Cell>
                 <Table.Cell>
-                  <Header as="h4">
+                  {/* <Header as="h4">
                     6:00 PM - 7:30 PM
                     <Header.Subheader>BJJ Fundamentals</Header.Subheader>
-                  </Header>
+                  </Header> */}
                 </Table.Cell>
                 <Header as="h4">
                   10:00 AM - 12:00 PM
@@ -198,14 +140,14 @@ class Schedule extends React.Component {
                 </List.Description>
               </List.Content>
             </List.Item>
-            <List.Item>
+            {/* <List.Item>
               <List.Content>
                 <List.Header>Friday</List.Header>
                 <List.Description>
                   6:00pm - 7:30pm BJJ Fundamentals
                 </List.Description>
               </List.Content>
-            </List.Item>
+            </List.Item> */}
             <List.Item>
               <List.Content>
                 <List.Header>Saturday</List.Header>
