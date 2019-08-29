@@ -1,10 +1,7 @@
 import * as React from "react";
-import * as Calendar from "react-big-calendar";
-import "react-big-calendar/lib/css/react-big-calendar.css";
 import "./Schedule.css";
 import * as moment from "moment";
 import { List, Table, Header } from "semantic-ui-react";
-Calendar.setLocalizer(Calendar.momentLocalizer(moment));
 
 class Schedule extends React.Component {
   constructor(props) {
@@ -75,16 +72,14 @@ class Schedule extends React.Component {
                   </Header>
                 </Table.Cell>
                 <Table.Cell>
-                  {/* <Header as="h4">
-                    6:00 PM - 7:30 PM
-                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
-                  </Header> */}
+                  <span />
                 </Table.Cell>
-                <Header as="h4">
-                  10:00 AM - 12:00 PM
-                  <Header.Subheader>Open Mat</Header.Subheader>
-                </Header>
-                <Table.Cell />
+                <Table.Cell>
+                  <Header as="h4">
+                    10:00 AM - 12:00 PM
+                    <Header.Subheader>Open Mat</Header.Subheader>
+                  </Header>
+                </Table.Cell>
               </Table.Row>
             </Table.Body>
           </Table>
