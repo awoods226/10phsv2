@@ -4,13 +4,7 @@ import "firebase/auth";
 import "firebase/firestore";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAUoGFNDZUI3C-6Q9GjnHx2TgyCFJbuy3Q",
-  authDomain: "phsv-ba1ad.firebaseapp.com",
-  databaseURL: "https://phsv-ba1ad.firebaseio.com",
-  projectId: "phsv-ba1ad",
-  storageBucket: "phsv-ba1ad.appspot.com",
-  messagingSenderId: "913011130299",
-  appId: "1:913011130299:web:10891654b36f560d"
+
 };
 
 // Initialize Firebase
