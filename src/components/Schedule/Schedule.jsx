@@ -29,8 +29,18 @@ class Schedule extends React.Component {
               <Table.Row>
                 <Table.Cell>
                   <Header as="h4">
-                    6:45 AM - 7:30 AM
-                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                    6:15 PM - 8:00 PM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
+                </Table.Cell>
+                <Table.Cell>
+                  <Header as="h4">
+                    11:00 AM - 12:30 PM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
+                    5:00 PM - 6:00 PM
+                    <Header.Subheader>Kids Class</Header.Subheader>
                   </Header>
                   <Header as="h4">
                     6:15 PM - 8:00 PM
@@ -39,22 +49,8 @@ class Schedule extends React.Component {
                 </Table.Cell>
                 <Table.Cell>
                   <Header as="h4">
-                    5:00 PM - 6:00 PM
-                    <Header.Subheader>Kids Class</Header.Subheader>
-                  </Header>
-                  <Header as="h4">
                     6:15 PM - 8:00 PM
-                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
-                  </Header>
-                </Table.Cell>
-                <Table.Cell>
-                  <Header as="h4">
-                    6:45 AM - 7:30 AM
-                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
-                  </Header>
-                  <Header as="h4">
-                    6:15 PM - 8:00 PM
-                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
                   </Header>
                   <Header as="h4">
                     8:00 PM - 9:00 PM
@@ -63,12 +59,16 @@ class Schedule extends React.Component {
                 </Table.Cell>
                 <Table.Cell>
                   <Header as="h4">
+                    11:00 AM - 12:30 PM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
                     5:00 PM - 6:00 PM
                     <Header.Subheader>Kids Class</Header.Subheader>
                   </Header>
                   <Header as="h4">
                     6:15 PM - 8:00 PM
-                    <Header.Subheader>BJJ Fundamentals</Header.Subheader>
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
                   </Header>
                 </Table.Cell>
                 <Table.Cell>
@@ -97,8 +97,6 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Monday</List.Header>
                 <List.Description>
-                  6:45am - 7:30am BJJ Fundamentals
-                  <br />
                   6:15pm - 8:00pm All Levels BJJ
                 </List.Description>
               </List.Content>
@@ -107,9 +105,11 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Tuesday</List.Header>
                 <List.Description>
+                  11:00am - 12:30pm All Levels BJJ
+                  <br />
                   5:00pm - 6:00pm Kids Class
                   <br />
-                  6:15pm - 8:00pm BJJ Fundamentals
+                  6:15pm - 8:00pm All Levels BJJ
                 </List.Description>
               </List.Content>
             </List.Item>
@@ -117,9 +117,7 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Wednesday</List.Header>
                 <List.Description>
-                  6:45am - 7:30am BJJ Fundamentals
-                  <br />
-                  6:15pm - 8:00pm BJJ Fundamentals
+                  6:15pm - 8:00pm All Levels BJJ
                   <br />
                   8:00pm - 9:00pm Muay Thai
                 </List.Description>
@@ -129,9 +127,11 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Thursday</List.Header>
                 <List.Description>
+                  11:00am - 12:30pm All Levels BJJ
+                  <br />
                   5:00pm - 6:00pm Kids Class
                   <br />
-                  6:15pm - 8:00pm BJJ Fundamentals
+                  6:15pm - 8:00pm All Levels BJJ
                 </List.Description>
               </List.Content>
             </List.Item>
@@ -139,7 +139,7 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Friday</List.Header>
                 <List.Description>
-                  6:00pm - 7:30pm BJJ Fundamentals
+                  6:00pm - 7:30pm All Levels BJJ
                 </List.Description>
               </List.Content>
             </List.Item> */}
