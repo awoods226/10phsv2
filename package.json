@@ -17,7 +17,7 @@
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-netlify": "^2.3.16",
     "gatsby-plugin-sharp": "^2.6.37",
-    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-source-filesystem": "^2.3.31",
     "gatsby-transformer-sharp": "^2.5.16",
     "moment": "^2.29.0",
     "react": "^16.13.1",
