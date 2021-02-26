@@ -72,7 +72,10 @@ class Schedule extends React.Component {
                   </Header>
                 </Table.Cell>
                 <Table.Cell>
-                  <span />
+                <Header as="h4">
+                    6:15 PM - 8:00 PM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
                 </Table.Cell>
                 <Table.Cell>
                   <Header as="h4">
@@ -135,14 +138,14 @@ class Schedule extends React.Component {
                 </List.Description>
               </List.Content>
             </List.Item>
-            {/* <List.Item>
+            <List.Item>
               <List.Content>
                 <List.Header>Friday</List.Header>
                 <List.Description>
-                  6:00pm - 7:30pm All Levels BJJ
+                  6:15pm - 8:00pm All Levels BJJ
                 </List.Description>
               </List.Content>
-            </List.Item> */}
+            </List.Item>
             <List.Item>
               <List.Content>
                 <List.Header>Saturday</List.Header>
