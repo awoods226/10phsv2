@@ -10,7 +10,7 @@ import {
 } from "semantic-ui-react";
 import "./Instructors.css";
 import brendanimg from "../../images/brendan.jpg";
-var ericimg = require("../../images/eric.jpg");
+var ericimg = require("../../images/eric2.jpeg");
 var chuckimg = require("../../images/chuck.jpg");
 
 class Instructors extends React.Component {

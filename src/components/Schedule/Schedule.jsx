@@ -50,7 +50,7 @@ class Schedule extends React.Component {
                   </Header>
                   <Header as="h4">
                     7:15 PM - 8:30 PM
-                    <Header.Subheader>Advanced BJJ</Header.Subheader>
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
                   </Header>
                 </Table.Cell>
                 {/* Wednesday */}
@@ -80,7 +80,7 @@ class Schedule extends React.Component {
                   </Header>
                   <Header as="h4">
                     7:15 PM - 8:30 PM
-                    <Header.Subheader>Advanced BJJ</Header.Subheader>
+                    <Header.Subheader>Live Drilling</Header.Subheader>
                   </Header>
                 </Table.Cell>
                 {/* Friday */}
