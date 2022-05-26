@@ -128,7 +128,7 @@ class Schedule extends React.Component {
                   <br />
                   6:00pm - 7:00pm Beginners BJJ
                   <br />
-                  7:15pm - 8:30pm Advanced BJJ
+                  7:15pm - 8:30pm All Levels BJJ
                 </List.Description>
               </List.Content>
             </List.Item>
@@ -152,7 +152,7 @@ class Schedule extends React.Component {
                   <br />
                   6:00pm - 7:00pm Beginners BJJ
                   <br />
-                  7:15pm - 8:30pm Advanced BJJ
+                  7:15pm - 8:30pm Live Drilling
                 </List.Description>
               </List.Content>
             </List.Item>
