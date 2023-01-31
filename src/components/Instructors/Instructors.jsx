@@ -9,7 +9,7 @@ import {
   Visibility,
 } from "semantic-ui-react";
 import "./Instructors.css";
-import brendanimg from "../../images/brendan.jpg";
+import finke from "../../images/finke.png";
 var ericimg = require("../../images/eric2.jpeg");
 var chuckimg = require("../../images/chuck.jpg");
 
@@ -59,10 +59,10 @@ class Instructors extends React.Component {
                 visible={this.state.isVisible}
                 animation={"fade"}
               >
-                <Image className="instructor-image" fluid src={brendanimg} />
+                <Image className="instructor-image" fluid src={finke} />
               </Transition>
               <Card.Content>
-                <Card.Header>Brendan Messex</Card.Header>
+                <Card.Header>Thomas Finke</Card.Header>
               </Card.Content>
             </Card>
           </Card.Group>
