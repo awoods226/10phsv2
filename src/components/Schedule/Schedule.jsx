@@ -30,6 +30,10 @@ class Schedule extends React.Component {
                 {/* Monday */}
                 <Table.Cell>
                   <Header as="h4">
+                    7:00 AM - 8:30 AM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
                     6:15 PM - 8:00 PM
                     <Header.Subheader>All Levels BJJ</Header.Subheader>
                   </Header>
@@ -45,8 +49,12 @@ class Schedule extends React.Component {
                     <Header.Subheader>All Levels BJJ</Header.Subheader>
                   </Header>
                   <Header as="h4">
+                    4:15 PM - 5:00 PM
+                    <Header.Subheader>Kids Class Ages 4-6</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
                     5:00 PM - 6:00 PM
-                    <Header.Subheader>Kids Class</Header.Subheader>
+                    <Header.Subheader>Kids Class Ages 7-13</Header.Subheader>
                   </Header>
                   <Header as="h4">
                     6:00 PM - 7:00 PM
@@ -55,6 +63,10 @@ class Schedule extends React.Component {
                 </Table.Cell>
                 {/* Wednesday */}
                 <Table.Cell>
+                  <Header as="h4">
+                    7:00 AM - 8:30 AM
+                    <Header.Subheader>All Levels BJJ</Header.Subheader>
+                  </Header>
                   <Header as="h4">
                     6:15 PM - 8:00 PM
                     <Header.Subheader>All Levels BJJ</Header.Subheader>
@@ -71,8 +83,12 @@ class Schedule extends React.Component {
                     <Header.Subheader>All Levels BJJ</Header.Subheader>
                   </Header>
                   <Header as="h4">
+                    4:15 PM - 5:00 PM
+                    <Header.Subheader>Kids Class Ages 4-6</Header.Subheader>
+                  </Header>
+                  <Header as="h4">
                     5:00 PM - 6:00 PM
-                    <Header.Subheader>Kids Class</Header.Subheader>
+                    <Header.Subheader>Kids Class Ages 7-13</Header.Subheader>
                   </Header>
                   <Header as="h4">
                     6:00 PM - 7:00 PM
@@ -110,6 +126,8 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Monday</List.Header>
                 <List.Description>
+                  7:00am - 8:30am All Levels BJJ
+                  <br />
                   6:15pm - 8:00pm All Levels BJJ
                   <br />
                   8:15pm - 9:00pm Muay Thai
@@ -122,7 +140,9 @@ class Schedule extends React.Component {
                 <List.Description>
                   11:00am - 12:30pm All Levels BJJ
                   <br />
-                  5:00pm - 6:00pm Kids Class
+                  4:15pm - 5:00pm Kids Class Ages 4-6
+                  <br />
+                  5:00pm - 6:00pm Kids Class Ages 7-13
                   <br />
                   6:00pm - 7:00pm Beginners BJJ
                 </List.Description>
@@ -132,6 +152,8 @@ class Schedule extends React.Component {
               <List.Content>
                 <List.Header>Wednesday</List.Header>
                 <List.Description>
+                  7:00am - 8:30am All Levels BJJ
+                  <br />
                   6:15pm - 8:00pm All Levels BJJ
                   <br />
                   8:15pm - 9:00pm Muay Thai
@@ -144,7 +166,9 @@ class Schedule extends React.Component {
                 <List.Description>
                   11:00am - 12:30pm All Levels BJJ
                   <br />
-                  5:00pm - 6:00pm Kids Class
+                  4:15pm - 5:00pm Kids Class Ages 4-6
+                  <br />
+                  5:00pm - 6:00pm Kids Class Ages 7-13
                   <br />
                   6:00pm - 7:00pm Beginners BJJ
                 </List.Description>
